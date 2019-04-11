@@ -9,7 +9,7 @@ body{
 }
 
 /*Navbar Starts*/
-.navbar.transparent.navbar-inverse .navbar-inner {
+/*.navbar.transparent.navbar-inverse .navbar-inner {
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
@@ -18,22 +18,64 @@ body{
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
-
-/*Navbar*/
+*/
+/*Navbar*//*
 .navbar-nav{
     margin-left: 450px;
 }
-
-/*Navbar-items*/
+*/
+/*Navbar-items*//*
 .nav-item{
     padding-left: 50px;
     margin-top: -40px
-}
+}*/
 
-/*Navbar-brand*/
+/*Navbar-brand*//*
 .navbar-brand{
     width: 10%;
 }
+*/
+
+
+    
+    .bg-dark{
+        background:#051a3c ! important;
+    }
+
+@media (min-width: 800px) {
+
+
+.navbar {
+  height: 70px;
+}
+
+.ml-auto{
+    margin-left: 60% !important;
+}
+
+.nav-link {
+
+    padding-right: 3rem ! important;
+ 
+}
+}
+
+.navbar-toggler {
+
+    padding: 0.25rem 0.75rem;
+    margin-top:0px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 0.25rem;
+
+}
+
 
 /*Navbar-brand-image*/
 .container img{
@@ -60,12 +102,29 @@ body{
     height: 100%;
 }
 
+
+@media (max-width: 600px) {
+
+/*Cloud-image-svg*/
+.container-fluid img{
+    /*! width: 35%; */
+    position: absolute;
+    left: 21%;
+    top: 15%;
+ 
+}
+
+
+}
+
+
+
 /*Banner*/
 #banner{
     background-color: #152942;
     width: 100%;
-    height: 700px;
-    position: relative;
+    height: 550px;
+     position: relative;
     background-image: radial-gradient(#0B2757, #031633 );
     z-index: 2;
 }
@@ -86,7 +145,6 @@ body{
     left: 10%;
     top: 28%;
 }
-
 /*Header-text*/
 h1{
     position: absolute;
